@@ -1,0 +1,14 @@
+{
+  "name": "cspray/amp-phpunit10-example",
+  "description": "A repo to show why PHPUnit 10 event system may not be suitable for amphp-phpunit-util",
+  "require": {
+    "php": "^8.1",
+    "amphp/amp": "^v3.0",
+    "phpunit/phpunit": "^10.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Cspray\\PhpUnit10Example\\": ["src","tests"]
+    }
+  }
+}
