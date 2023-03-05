@@ -34,7 +34,6 @@ class Extension implements PHPUnitExtension {
             ) {}
 
             public function notify(Finished $event) : void {
-                $exception = null;
                 try {
                     $this->context->suspension->suspend();
                 } catch (\Throwable $e) {
